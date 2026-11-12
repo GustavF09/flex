@@ -15,15 +15,33 @@ body {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.veckans {
+    background-color: greenyellow;
+    border: 3px solid #d00f0f;
 }
 
 .galleri-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.kort_header {
+    
 }
 
 .galleri {
     display: flex;
     gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.ebook {
+    margin-top: auto;
+    align-self: flex-end;
 }
